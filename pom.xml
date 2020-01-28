@@ -113,11 +113,11 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-            <repository>
-            <id>releases</id>
-	    <name>Releases</name>
-           <url>http://18.218.201.204:8081/nexus/content/repositories/releases/</url>
-            </repository>
+            <snapshotrepository>
+            <id>snapshots</id>
+	    <name>Snapshots</name>
+           <url>http://18.218.201.204:8081/nexus/content/repositories/snapshots/</url>
+            </snapshotrepository>
         </distributionManagement>
 
 </project>
