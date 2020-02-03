@@ -114,7 +114,7 @@
 	</build>
 	<distributionManagement>
             <snapshotRepository>
-            <id>snapshots</id>
+            <id>nexus</id>
 	    <name>Snapshots</name>
            <url>http://18.220.4.113:8081/nexus/content/repositories/snapshots/</url>
             </snapshotRepository>
