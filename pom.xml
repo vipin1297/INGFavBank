@@ -119,4 +119,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	<profile>
+           <id>uat</id>
+        <properties>
+            <spring.profiles.active>uat</spring.profiles.active>
+        </properties>
+    </profile>
 </project>
